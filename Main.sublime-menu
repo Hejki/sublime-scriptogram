@@ -1,0 +1,23 @@
+[
+    {
+        "id": "tools",
+        "caption": "Tools",
+        "children": [
+            {
+                "caption": "Scriptogram",
+                "children": [
+                    { "caption": "New", "command": "scriptogram_new" },
+                    { "caption": "Upload", "command": "scriptogram_upload" },
+                    { "caption": "-" },
+                    {
+                        "caption": "Settings",
+                        "command": "open_file",
+                        "args": {
+                            "file": "${packages}/User/scriptogram.sublime-settings"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]
